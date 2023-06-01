@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Ausstellungsteam"
+  },
+  "text": {
+    "more": "",
+    "intro": "Der Graph zeigt das private und berufliche Netzwerk von Franz Moufang, das anhand seiner Gästebücher und Briefe rekonstruiert werden konnte.",
+    "title": "Franz Moufang: The Social Network"
+  },
+  "legend": {
+    "edgeLabel": "Verbindungen",
+    "colorLabel": "Die Farbverteilung repräsentiert annähernd die verschiedenen Interessen- und Freundesgruppen, die sich im Netzwerk von Franz Moufang entwickelt haben.",
+    "nodeLabel": "Akteure/Ereignisse"
+  },
+  "features": {
+    "search": false,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "line",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 1,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 1,
+      "minEdgeSize": 0.5,
+      "minNodeSize": 3,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
